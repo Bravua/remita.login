@@ -342,6 +342,7 @@
                 <label for="pwd" style="font-weight: 600;font-size: small;">Confirm Email <span style="font-weight: 700;color: #e63900;">*</span></label>
                 <input type="email" class="form-control" placeholder="email" name="email">
               </div>
+              <p class="mt-4" style="font-weight:600;font-size:small">By clicking <b>Submit</b> you agree to our <span style="color:#e63900;">Terms and Conditions</span> and <span style="color:#e63900;">Privacy Policy</span></p>
               <button type="button" data-bs-toggle="modal" data-bs-target="#myModal" class="btn mt-3 btnsub">Submit</button>
           </div>
     </form>
@@ -352,17 +353,16 @@
 <div class="bg-light p-3 mt-5">
     <div class="container">
         <h3>Contact us</h3>
-        <p>www.systemspecs.com.ng <br>
+          <p style="font-weight:600;font-size:small">www.systemspecs.com.ng <br>
             Plot B22, Yesufu Abiodun Oniru Road, Oniru. <br>
             Support: +234-1-6367000, +234700-7877678 <br>
-            support@remita.net</p>
-            <hr>
+            support@remita.net</p> 
             <p style="text-align: center; font-size: xx-small;">Copyright © 2020 SystemSpecs. All Rights Reserved | Remita is a platform designed and developed by SystemSpecs.</p>
     </div>
 </div>
 
 <!-- The Modal -->
-<div class="modal fade" style="transition: 15s;" id="myModal">
+<div class="modal fade p-3" style="transition: 15s; border-radius:15px;" id="myModal">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
   
@@ -372,11 +372,50 @@
         </div>
   
         <!-- Modal body -->
-        <div class="modal-body">
-          <div class="container-fluid"> 
-            <div class="container bg-light" style="border-radius: 25px;">
-                <h2 style="font-weight: 700; padding: 15px; text-align: center; width: 400px;"> <i class="fa fa-wallet 2x"></i> BANK TRANSFER <i class="fas fa-check" style="color: green;"></i></h2>
+        <div class="modal-body p-3">
+          <div style="background-color:#e63900;"> 
+            <div class=""  style="border-radius: 25px; background-color:white;">
+                <h2 style="font-weight: 700; padding: 15px; text-align: center; width: 400px;"> <i class="fa fa-wallet 2x"></i> BANK TRANSFER <i class="fas fa-check rconfirm"></i></h2>
             </div>
+          </div>
+          <div class="card cardpay mt-5">
+            <p style="text-align:center; font-size:x-small;">After making payment check your email to get your REMITA RETRIEVAL REFERENCE (RRR)</p>
+          </div>
+          <h6 class="mt-4" style="text-align:center;font-size:small;">ACCOUNT DETAILS</h6>
+          <div class="p-2" style="border-radius:15px;">
+            <div class="row p-2 bg-light" style="border-radius:15px;">
+              <div class="col">
+                <p style="font-size:small; font-weight:600">Account:</p>
+              </div>
+              <div class="col">
+              <p style="font-size:small; font-weight:800">Remita Checkout</p>
+              </div>
+            </div>
+            <div class="row mt-2 p-2 bg-light" style="border-radius:15px;">
+              <div class="col">
+                <p style="font-size:small; font-weight:600">Account Name:</p>
+              </div>
+              <div class="col mt-2">
+              <p style="font-size:small; font-weight:800">AJIBOLA BABATUNDE <br> (Bursery account)</p>
+              </div>
+            </div>
+            <div class="row mt-2 p-2 bg-light" style="border-radius:15px;">
+              <div class="col">
+                <p style="font-size:small; font-weight:600">Account Number:</p>
+              </div>
+              <div class="col mt-2">
+              <p style="font-size:small; font-weight:800">8082225459</p>
+              </div>
+            </div>
+            <div class="row mt-2 p-2 bg-light" style="border-radius:15px;">
+              <div class="col">
+                <p style="font-size:small; font-weight:600">Bank Name:</p>
+              </div>
+              <div class="col">
+              <p style="font-size:small; font-weight:800">Opay</p>
+              </div>
+            </div>
+            <p class="mt-4" style="text-align:center; font-size:small;font-weight:600;">Please make a transfer to the account details above.</p>
           </div>
         </div>
   

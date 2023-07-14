@@ -25,3 +25,18 @@
     padding: 8px;
     font-weight: 700;
    }
+   .rconfirm{
+    color: white;
+    padding: 2px;
+    border-radius: 50px;
+    background-color: #00e600;
+    font-size: xx-small;
+  }
+  .cardpay{
+    background-color: #b33c00;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: 600;
+    font-size:small;
+  }
