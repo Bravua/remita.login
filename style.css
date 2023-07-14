@@ -1,0 +1,27 @@
+.bg1st{
+    background-image: url('img/images.jfif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 10px;
+      transition: 5s;
+      background-position: top right;
+}
+
+.nav-link{
+    color:white;
+    font-weight: 700;
+    font-size: small;
+   }
+
+   form{
+    padding: 10px;
+
+   }
+
+   .btnsub{
+    background-color: #e63900;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: 700;
+   }
