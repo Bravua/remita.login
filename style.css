@@ -19,7 +19,7 @@
    }
 
    .btnsub{
-    background-color: #e63900;
+    background: linear-gradient(130deg, #ff9980, #e64d00);
     color: white;
     border-radius: 5px;
     padding: 8px;
@@ -33,7 +33,7 @@
     font-size: xx-small;
   }
   .cardpay{
-    background-color: #b33c00;
+    background: linear-gradient(130deg, #e64d00, #ff9980);
     color: black;
     border-radius: 5px;
     padding: 8px;
